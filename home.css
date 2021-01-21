@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth; */
+
+}
+html,body{
+    background-color: black;
+    /* overflow-y: hidden; */
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    position: fixed;
+    z-index: 13;
+    text-align: center;
+}
+header div {
+    float: left;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+header div>h1{
+    font-weight: 900;
+    font-size: 55px;
+
+}
+header nav{
+    float: center;
+    margin: auto;
+    color: white;
+    /* padding-top: 5px; */
+    margin-top: 35px;
+}
+header nav ul li{
+    display: inline;
+    /* padding-left: 5px; */
+    margin-left: 45px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    width: 25%;
+    font-weight: 700;
+}
+header nav ul li a:hover,
+header nav ul li a:focus{
+    color: #95a5a6;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 700;
+}
+header nav ul li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #9c6b62;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+
+header nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-sec{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(./images/f1.jpg); */
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.first-sec h1{
+    font-size: 100px;
+    color: white;
+    margin-top: 400px;
+    overflow-y: hidden;
+    margin-left: 17%;
+    position: absolute;
+    background-color: transparent;
+    z-index: 13;
+    font-weight: 700;
+
+
+}
+.first-sec-left{
+    position: absolute;
+    margin-left: 50px !important;
+    margin-top: 40vh !important;
+    height: fit-content;
+    align-items: left;
+    text-align: left;
+    width: 350px;
+    
+}
+.first-sec-lef{
+    
+    /* margin-left: 50px !important;
+    margin-top: 40vh !important; */
+    height: fit-content;
+    align-items: left;
+    text-align: left;
+    width: 350px;
+    
+}
+.haha{
+    height:450px;
+    width:300px;
+    background-color:transparent;
+    background-position: center;
+    background-size: cover;
+}
+hr{
+    border-top: 2px solid rgb(247, 87, 87);
+    width: 80px;
+    
+}
+.yel{
+    transform: rotate(90deg);
+    margin-left: 24px !important;
+}
+.first-sec-left h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    overflow-y: hidden;
+
+}
+.first-sec-left span{
+    color: white;
+    font-size: 15px;
+    line-height: 2px;
+}
+.first-sec-left.yello{
+    margin-top: 40vh !important;
+    margin-left: 70vw !important;
+    color: white;
+    
+}
+.first-sec-lef.yello1{
+    /* margin-top: 60vh !important; */
+    /* margin-left: 50px !important; */
+    color: white;
+    
+}
+.first-sec-left.yello2{
+    margin-top: 50vh !important;
+    margin-left: 72vw !important;
+    /* color: white; */
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    background-image: url(./images/DWEB.png);
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 180px;
+    
+}
+.button1{
+    margin-left: 1.5%;
+    
+}
+.button1 a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:  rgb(247, 87, 87);
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.button1 a:hover,
+.button1 a:focus{
+    font-size: 15px;
+    color:  rgb(247, 87, 87);
+    font-weight: 800;
+    background-color: white;
+    transition: color 140ms ease-in;
+}
+.first-sec-inner{
+    opacity: 0.9;
+    z-index: 9;
+    margin-top: 10% !important;
+    background-image: url(./images/f2.jpg);
+    width: 350px;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    top: 50%;
+
+}
+.last-sec{
+    
+    z-index: 10;
+    width: 100%;
+    float: center;
+    justify-content: center;
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+
+
+
+    
+}
+.last-sec h1{
+    font-size: 200px;
+    color: rgb(22, 21, 21) !important;
+    overflow-y: hidden;
+}
+.more{
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+.more h3,h4{
+    overflow-y: hidden;
+}
+.more h3{
+    font-size: 15px;
+    letter-spacing: 10px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.more span{
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.more h4{
+    padding-top: 50px;
+    font-size: 15px;
+    letter-spacing: 10px;
+    color: rgb(247, 87, 87);
+}
+.more hr{
+    transform: rotate(90deg);
+    margin-left: 46vw !important;
+    margin-top: 80px !important;
+}
+.more div{
+    width: 700px;
+    /* margin-top: 50px; */
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+.pictures{
+    width: 100% ;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto !important;
+    margin-top: 750px !important;
+    /* height: 1000px; */
+    background-color: rgb(49, 47, 47);
+    /* overflow-x: hidden; */
+
+}
+
+
+.img-hover-zoom {
+    height: 300px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  .hvrbox * {
+    box-sizing: border-box;
+  }
+  .hvrbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+  }
+  .hvrbox img {
+    max-width: 100%;
+  }
+  .hvrbox .hvrbox-layer_bottom {
+    display: block;
+  }
+  .hvrbox .hvrbox-layer_top {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .hvrbox:hover .hvrbox-layer_top,
+  .hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+  }
+  .hvrbox .hvrbox-text {
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+  }
+  .hvrbox.active .hvrbox-text_mobile {
+    display: block;
+  }
+
+
+
+  .card{
+      padding-top: 20px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+  }
+  .card .card-body a{
+    background-color: transparent;
+    border-color: rgb(247, 87, 87);
+    font-size: 10px;
+    color: rgb(247, 87, 87);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 600;
+  }
+  .contact{
+      padding: 0;
+      /* border: 2px solid white; */
+      width: 800px;
+      height: 300px !important;
+      margin: 50px auto !important;
+      background-color: rgb(15, 15, 15);
+  }
+  #div1 {
+    display: inline-block;
+    float: left;
+    position: initial;
+    padding: 0;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    /* float: center; */
+}
+
+#div2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    /* float: center; */
+}
+
