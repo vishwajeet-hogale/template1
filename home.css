@@ -49,7 +49,7 @@ header nav ul li{
     overflow: hidden;
 }
 header nav ul{
-    overflow: hidden;
+    overflow-y: hidden;
 }
 header nav ul li a{
     text-decoration: none;
