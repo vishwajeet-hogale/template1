@@ -46,6 +46,10 @@ header nav ul li{
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
+    overflow: hidden;
+}
+header nav ul{
+    overflow: hidden;
 }
 header nav ul li a{
     text-decoration: none;
@@ -53,6 +57,7 @@ header nav ul li a{
     position: relative;
     width: 25%;
     font-weight: 700;
+
 }
 header nav ul li a:hover,
 header nav ul li a:focus{
@@ -60,6 +65,7 @@ header nav ul li a:focus{
     font-size: 1em;
     text-decoration: none;
     font-weight: 700;
+
 }
 header nav ul li a::after {
     position: absolute;
@@ -150,7 +156,7 @@ header nav ul li a:hover::after {
     background-size: cover;
 }
 hr{
-    border-top: 2px solid rgb(247, 87, 87);
+    border-top: 2px solid rgb(247, 87, 87) !important;
     width: 80px;
     
 }
